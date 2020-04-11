@@ -8,7 +8,7 @@ Start building text by call `buildSpannableText` or `buildClickableText` on Text
 Than call `block` to add spannable text. You also can use special blocks like `newLine` or `space`.
 
 Every block can be midified by [spans](https://developer.android.com/reference/android/text/style/package-summary):
-|Span|||
+|Extension|Span|Description|
 | ------------- | --------------------| ------------------------------------------------------|
 |textStyle|StyleSpan|Span that allows setting the style of the text it's attached to.|
 |relativeSize|RelativeSizeSpan|Uniformly scales the size of the text to which it's attached by a certain proportion.|
