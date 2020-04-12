@@ -1,4 +1,4 @@
-package dev.klippe.bspan
+package dev.klippe.library
 
 import android.content.Context
 import android.graphics.Color

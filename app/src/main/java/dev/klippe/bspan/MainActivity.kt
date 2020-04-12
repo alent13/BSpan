@@ -7,7 +7,27 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Layout
 import android.widget.Toast
-import androidx.core.text.buildSpannedString
+import dev.klippe.library.alignment
+import dev.klippe.library.backgroundColor
+import dev.klippe.library.block
+import dev.klippe.library.buildClickableText
+import dev.klippe.library.newLine
+import dev.klippe.library.onClick
+import dev.klippe.library.quote
+import dev.klippe.library.relativeSize
+import dev.klippe.library.setFont
+import dev.klippe.library.setTextAppearance
+import dev.klippe.library.setTypeface
+import dev.klippe.library.space
+import dev.klippe.library.strikeThrough
+import dev.klippe.library.subscript
+import dev.klippe.library.superscript
+import dev.klippe.library.textColor
+import dev.klippe.library.textSize
+import dev.klippe.library.textSizeDp
+import dev.klippe.library.textStyle
+import dev.klippe.library.underlined
+import dev.klippe.library.url
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
