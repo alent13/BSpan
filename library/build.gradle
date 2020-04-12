@@ -40,11 +40,3 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
-
-task classesJar(type: Jar) {
-    from "$buildDir/intermediates/compile_library_classes/release"
-}
-
-artifacts {
-    archives classesJar
-}
